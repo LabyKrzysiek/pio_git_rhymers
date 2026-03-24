@@ -37,8 +37,4 @@ public class DefaultCountingOutRhymer {
             return EMPTY_STACK;
         return numbers[total--];
     }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
 }

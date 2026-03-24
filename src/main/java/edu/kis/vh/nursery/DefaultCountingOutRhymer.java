@@ -5,7 +5,7 @@ public class DefaultCountingOutRhymer {
     public static final int CAPACITY = 12;
     public static final int EMPTY_STACK = -1;
     public static final int STACK_FULL = 11;
-    private int[] numbers = new int[CAPACITY];
+    private final int[] numbers = new int[CAPACITY];
 
     public int total = EMPTY_STACK;
 

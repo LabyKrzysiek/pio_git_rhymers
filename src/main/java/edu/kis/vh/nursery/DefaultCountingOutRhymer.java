@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     public static final int STACK_FULL = 11;
     private final int[] numbers = new int[CAPACITY];
 
-    public int total = EMPTY_STACK;
+    private int total = EMPTY_STACK;
 
     public int getTotal() {
         return total;
@@ -38,4 +38,7 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }

@@ -1,5 +1,8 @@
 package edu.kis.vh.nursery;
 
+/**
+ * Klasa symulująca działanie prostej wyliczanki i stosu
+ */
 public class DefaultCountingOutRhymer {
 
     private static final int CAPACITY = 12;
@@ -25,6 +28,10 @@ public class DefaultCountingOutRhymer {
         return total;
     }
 
+    /**
+     *
+     * @param in wartosc do dodania
+     */
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
